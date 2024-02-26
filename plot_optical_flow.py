@@ -163,7 +163,8 @@ print(f"min = {predicted_flows.min()}, max = {predicted_flows.max()}")
 # the ball and the player. Note in particular the different predicted direction
 # of the ball in the first image (going to the left) and in the second image
 # (going up).
-
+#Predicted flow: represented by tensors containing the values of movement for each
+#individual pixel in the x, y, z direction
 from torchvision.utils import flow_to_image
 print("Predicted: ")
 print(predicted_flows)
